@@ -1,0 +1,27 @@
+/* default-styles.css */
+
+/* Light mode (default) styles */
+body {
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark gray text */
+}
+
+a {
+  color: #007bff; /* Blue links */
+}
+
+/* Add other light mode styles here */
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333333; /* Dark gray background */
+    color: #ffffff; /* White text */
+  }
+
+  a {
+    color: #87ceeb; /* Lighter blue links */
+  }
+
+  /* Add other dark mode styles here */
+}

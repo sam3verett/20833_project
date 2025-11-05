@@ -9,3 +9,18 @@ h2 {
 p { 
     font-family:'Courier New', Courier, monospace
 }
+
+header, footer{
+    border-style: solid;
+    border-color: purple;
+}
+
+nav{
+    border-style: solid;
+    border-color: purple;
+}
+
+main{
+    border-style: solid;
+    border-color: yellowgreen;
+}
